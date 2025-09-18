@@ -1,0 +1,9 @@
+{
+    "namespace": "KafkaAvroTest",
+    "type": "record",
+    "name": "User",
+    "fields": [
+        {"name": "UserId", "type": "int"},
+        {"name": "Name", "type": "string"}
+    ]
+}

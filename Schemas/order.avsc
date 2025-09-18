@@ -1,0 +1,10 @@
+{
+    "namespace": "KafkaAvroTest",
+    "type": "record",
+    "name": "Order",
+    "fields": [
+        {"name": "Id", "type": "int"},
+        {"name": "Product", "type": "string"},
+        {"name": "Amount", "type": "double"}
+    ]
+}
